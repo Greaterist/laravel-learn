@@ -21,6 +21,7 @@ class Controller extends BaseController
                 'title' => $faker->jobTitle(),
                 'author' => $faker->userName(),
                 'status' => 'DRAFT',
+                'image' => null,
                 'description' => $faker->text(100),
                 'category_id' => $faker->numberBetween(1, 10),
                 'created_at' => now('Europe/Moscow')
@@ -32,6 +33,7 @@ class Controller extends BaseController
                 'title' => $faker->jobTitle(),
                 'author' => $faker->userName(),
                 'status' => 'DRAFT',
+                'image' => null,
                 'description' => $faker->text(100),
                 'category_id' => $faker->numberBetween(1, 10),
                 'created_at' => now('Europe/Moscow')
@@ -55,6 +57,7 @@ class Controller extends BaseController
                     'title' => $faker->jobTitle(),
                     'author' => $faker->userName(),
                     'status' => 'DRAFT',
+                    'image' => null,
                     'description' => $faker->text(100),
                     'category_id' => $id,
                     'created_at' => now('Europe/Moscow')
